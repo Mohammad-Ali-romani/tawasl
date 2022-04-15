@@ -1,0 +1,2 @@
+عدل على مجلد .gitignore
+قم بحذف public
