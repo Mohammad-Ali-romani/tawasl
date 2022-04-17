@@ -22,7 +22,6 @@ class AdminSeeder extends Seeder
             'is_admin'=>true,
             'email'=>'admin@admin.com',
             'password'=>Hash::make('admin123'),
-
         ]);
 //        $rand = Factory::create();
 //        $user = User::create([

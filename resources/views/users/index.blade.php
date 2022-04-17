@@ -35,7 +35,7 @@
                                     <tr>
                                         <td>
                                             <div class="d-flex ">
-                                                <img src="{{asset($user->avatar)}}" alt="{{$user->name}}"
+                                                <img src="{{asset('users/avatars/'.$user->avatar)}}" alt="{{$user->name}}"
                                                      class="avatar-admin">
                                                 <div class="info-admin">
                                                     <h6>{{$user->name}}</h6>
